@@ -921,7 +921,6 @@ export class SessionDialog extends Dialog implements Session {
     reinviteUserAgentClient: ReInviteUserAgentClient | undefined;
     // (undocumented)
     reinviteUserAgentServer: ReInviteUserAgentServer | undefined;
-    // (undocumented)
     reliableSequenceGuard(message: IncomingResponseMessage): boolean;
     // (undocumented)
     get sessionState(): SessionState;
